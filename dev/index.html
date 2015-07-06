@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>image-resize</title>
+	<link rel="stylesheet" href="">
+	<style>
+		html, body {
+			padding: 0;
+			margin: 0;
+		}
+		#dropArea {
+			width : 500px ;
+			height : 500px;
+			background: #ccc;
+		}
+		canvas {
+			background: transparent;
+		}
+	</style>
+</head>
+<body>
+	<div id="dropArea"></div>
+	<p id="imageInfo"></p>
+	<a id="download" href="#" download="resize.png">ダウンロード</a>
+	<input id="resizeWidth" type="number"></input>
+	<input id="resizeHeight" type="number"></input>
+	<script src="/js/image-resize.js"></script>
+</body>
+</html>
